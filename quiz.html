@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz</title>
+    <style>
+        *{
+            text-align: center;
+            background-color: rgb(229, 236, 218);
+            color: rgb(33, 53, 2);
+        }
+    .btn{
+        background-color: greenyellow;
+        padding: 10px 20px;
+        font-size: 150%;
+        border-radius: 15px;
+    }
+    </style>
+</head>
+<body>
+    <h1>Covid-19 assessment quiz</h1>
+    <form action="submit.js">
+        <h3>Did you had fever or chills in past 2-3 days:</h3>
+        <input type="radio" id="yes" name="situation" value="YES">
+        <label for="yes">YES</label><br>
+        <input type="radio" id="no" name="situation" value="NO">
+        <label for="no">NO</label><br>
+       <br>
+       
+        <h3>Did you had cough in past 2-3 days:</h3>
+        <input type="radio" id="yes" name="cough" value="YES">
+        <label for="yes">YES</label><br>
+        <input type="radio" id="no" name="cough" value="NO">
+        <label for="no">NO</label><br>
+       <br>
+       
+        <h3>Did you had dificulty in breathing past 2-3 days:</h3>
+        <input type="radio" id="yes" name="breathing" value="YES">
+        <label for="yes">YES</label><br>
+        <input type="radio" id="no" name="breathing" value="NO">
+        <label for="no">NO</label><br>
+       <br>
+       <h3>Do you have fatigue:</h3>
+        <input type="radio" id="yes" name="fatigue" value="YES">
+        <label for="yes">YES</label><br>
+        <input type="radio" id="no" name="fatigue" value="NO">
+        <label for="no">NO</label><br>
+       <br>
+       <h3>Do you have muscle or body ache:</h3>
+        <input type="radio" id="yes" name="ache" value="YES">
+        <label for="yes">YES</label><br>
+        <input type="radio" id="no" name="ache" value="NO">
+        <label for="no">NO</label><br>
+       <br>
+       <h3>Do you have headache:</h3>
+        <input type="radio" id="yes" name="headache" value="YES">
+        <label for="yes">YES</label><br>
+        <input type="radio" id="no" name="headache" value="NO">
+        <label for="no">NO</label><br>
+       <br>
+       <h3>Do you have runny nose:</h3>
+        <input type="radio" id="yes" name="runny" value="YES">
+        <label for="yes">YES</label><br>
+        <input type="radio" id="no" name="runny" value="NO">
+        <label for="no">NO</label><br>
+       <br>
+       <h3>Do you have sore throat:</h3>
+        <input type="radio" id="yes" name="sore" value="YES">
+        <label for="yes">YES</label><br>
+        <input type="radio" id="no" name="sore" value="NO">
+        <label for="no">NO</label><br>
+       <br>
+       <h3>Do you have diarrhea:</h3>
+        <input type="radio" id="yes" name="diarrhea" value="YES">
+        <label for="yes">YES</label><br>
+        <input type="radio" id="no" name="diarrhea" value="NO">
+        <label for="no">NO</label><br>
+       <br>
+       <input type="submit" value="Submit" class="btn">
+       <input type="reset" value="Reset" class="btn" >
+       </form>
+
+</body>
+</html>
